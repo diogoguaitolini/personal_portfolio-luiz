@@ -18,6 +18,7 @@
         "To make the design 3D-printable, ensuring that it is accessible for DIY enthusiasts and those with 3D printers."
       ],
       "implementation": "The vase was designed using Fusion 360, focusing on sleek lines and user-centric features. The attachment system was developed to ensure that the vase could be easily mounted and removed from the wall. The locking mechanism at the base is a crucial feature, allowing the user to screw on and off the bottom, facilitating the removal of dirt and water buildup. The design is fully optimized for 3D printing, ensuring a smooth printing process with easy assembly. The materials were chosen with durability in mind, ensuring that the vase is both sturdy and lightweight.",
+      "challenges": "Ensuring that the vase could be securely mounted yet easily detachable was a key challenge. I solved this by designing a user-friendly locking mechanism that allows the vase to click into place and can be easily unscrewed for removal, ensuring both security and convenience. Watering plants in a wall-mounted vase without spilling or creating a mess was crucial. The screw-on bottom mechanism ensures excess water and dirt are contained and can be easily removed, preventing drips and making cleaning hassle-free.",
       "results": "The vase design successfully meets the project’s objectives, offering a sleek and user-friendly solution for wall-mounted plant display. The project not only adds an elegant touch to any home but also encourages a more practical approach to plant care, ensuring that both the plants and the home environment remain in top condition."
     }
   },
@@ -65,6 +66,7 @@
         "To apply a consistent design system using Figma for a polished, user-friendly interface."
       ],
       "implementation": "Following design thinking, the app was built in Figma with reusable UI components and a modern visual style. Key features include event creation, friend invites, live map tracking, and notification-driven actions like 'pokes'. The app is being developed in Flutter to ensure cross-platform deployment with consistent performance.",
+      "challenges": "Designing a UI that was both easy to use in high-stress, fast-moving environments and visually engaging posed a challenge. I addressed this by focusing on clear, large touch targets, minimalistic icons, and a high-contrast color scheme to ensure legibility and quick navigation even in crowded settings. Integrating features like poking and incognito mode without overwhelming users with options required intuitive UI design. I created simple, contextual interactions that blended seamlessly into the app’s workflow, allowing users to toggle features with ease.",
       "results": "Findr has received enthusiastic feedback from potential users and is on track for its debut at Calgary Stampede 2025. The feature set and thoughtful design have positioned it as a helpful and fun tool for group event coordination."
     }
   },
@@ -87,7 +89,55 @@
         "To develop a scalable system architecture supporting modularity and firmware unification."
       ],
       "implementation": "Using Altium Designer, the boards were developed through iterative prototyping. The Driver Controls Board focused on signal capture and minimal latency. The B3 Board integrated multiple protocols for system-wide control and power management. The stack layout and interconnection helped reduce complexity and physical wiring across the vehicle.",
+      "challenges": "Managing multiple communication protocols (SPI, CAN, USB) on a compact PCB introduced risks of signal interference and integrity loss. Careful PCB layout strategies, including impedance matching and ground plane optimization, were used to maintain reliable communication.",
       "results": "The boards played a vital role in Helios’s low voltage system. They streamlined communication, simplified firmware development, and set a foundation for future system expansions. These contributions helped prepare the vehicle for upcoming solar racing competitions."
+    }
+  },
+  {
+    "id": "agrisync-ui",
+    "title": "AgriSync UI/UX",
+    "subtitle": "Designing UI/UX For Non-technical Users in Agricultural Environment",
+    "description": "Designing UI/UX For Non-technical Users in Agricultural Environment",
+    "category": "Digital Products & UI/UX Design",
+    "featured": true,
+    "image": "/agrisync-inventory.png",
+    "technologies": ["UI/UX Design", "Figma", "Prototyping"],
+    "content": {
+      "overview": "AgriSync is an IoT-driven inventory management system tailored for the agricultural sector, designed to automate tracking of critical farm supplies and streamline procurement. By integrating a smart pallet scale with a mobile and web platform, AgriSync provides real-time inventory insights, reduces waste, and enhances supply chain efficiency. The system empowers farmers with data-backed decisions while offering suppliers a direct channel to their market. This project was executed by a group of 5 engineers as our Capstone Project and earned us a 3rd place medal in the Entrepreneurial category at the Capstone Fair. In this project, I played a leading role in UI/UX design across both the mobile and web platforms, ensuring the interface was intuitive and accessible for our target users: farmers with varying levels of technical literacy.",
+      "background": "In agriculture, traditional inventory tracking methods—like handwritten logs or spreadsheets—are inefficient, error-prone, and lack real-time visibility. This often results in overstocking or understocking, which directly affects operational efficiency and can cause substantial waste, particularly with perishable goods. While digital solutions exist, they tend to be overly complex and demand high levels of manual input. AgriSync was created to fill this gap by offering a simple, effective, and user-focused platform designed with the farmer in mind.",
+      "objectives": [
+        "To develop a user-friendly mobile and web platform tailored to non-technical users.",
+        "To ensure UI/UX decisions directly supported real-time inventory visibility and ease of operation.",
+        "To create accessible visualizations for inventory trends, alerts, and supplier interactions.",
+        "To validate the usability of the interface through feedback sessions with real users.",
+        "To contribute to a platform that is not only functional but also enjoyable and efficient to use."
+      ],
+      "implementation": "I led the design process for both the Flutter-based mobile app and the Next.js (React) web dashboard. I conducted user research to understand pain points in current workflows, then wireframed and prototyped interfaces that aligned with those insights. The designs were implemented with responsiveness in mind, ensuring seamless experiences across devices. The inventory dashboard visualizes data using clean, interactive graphs, and alerts are color-coded and prioritized by urgency.",
+      "challenges": "Farmers and field workers often prefer minimal text and straightforward interactions. I addressed this by favoring iconography, progressive disclosure of information, and clear visual hierarchies to guide user actions. Interfaces had to remain legible in bright sunlight and be operable with gloved hands. I validated the design on-site and adapted font sizes, button placements, and color contrasts accordingly. Ensuring that both the mobile and web platforms provided a cohesive experience required careful component reuse and shared styling principles.",
+      "results": "The intuitive design significantly lowered the learning curve for first-time users, with positive feedback from farmers during testing sessions. Visual alerts and graphs helped users make faster, more informed decisions, enhancing day-to-day inventory management. The clean and accessible UI was a standout point during our Capstone Fair presentation, contributing to our 3rd place Entrepreneurial award. The UI/UX foundation I developed set the stage for future scalability and feature additions without compromising usability."
+    }
+  },
+  {
+    "id": "munitora",
+    "title": "Munitora",
+    "subtitle": "Livestock Management Solutions",
+    "description": "Designing UI/UX For Non-technical Users in Agricultural Environment",
+    "category": "Digital Products & UI/UX Design",
+    "featured": true,
+    "image": "/PASTURES-MAP.png",
+    "technologies": ["UI/UX Design", "Figma", "Prototyping", "Design System", "Agile", "Lean", "Kaizen"],
+    "content": {
+      "overview": "Munitora is a livestock management startup transforming how cattle farmers operate by delivering AI-powered business intelligence through a fully integrated software solution. As Co-founder and CEO, I led the creation and development of our cross-platform application and directed a multidisciplinary team of 3 founders and 5 developers. We’ve secured over CA$100,000 in non-dilutive funding, onboarded five pilot farms, and are preparing for a full market launch in June 2025.",
+      "background": "The cattle industry, particularly in Brazil and Canada, continues to struggle with manual, paper-based processes for herd and farm management. These outdated methods result in data inaccuracies, poor traceability, inefficiencies, and regulatory non-compliance. Motivated by co-founder Diogo Guaitolini’s firsthand experience as a seventh-generation cattle farmer, and backed by my expertise in lean management and UX design, and our team’s expertise in software development, Munitora was born to modernize farm operations and drive data-informed decision-making.",
+      "objectives": [
+        "To develop a cross-platform (mobile and web) application that simplifies cattle farm management through an intuitive and consistent user interface.",
+        "To integrate RFID-based animal identification and data collection tools for enhanced traceability and precision livestock tracking.",
+        "To implement AI-powered analytics and lean management principles that turn raw data into actionable insights for herd optimization.",
+        "To streamline core operational processes including vaccination records, weight monitoring, employee management, and financial reporting."
+      ],
+      "implementation": "I led the product design and strategy, ensuring consistency across web and mobile platforms while introducing a scalable design system that streamlined our UI/UX workflow. The solution uses Bluetooth-enabled RFID readers and integrates digital scales and feeders with our cloud-based platform. Our backend aggregates animal-level data into actionable insights using proprietary algorithms grounded in lean manufacturing principles. This entire development was managed collaboratively through agile sprints, cross-functional coordination, and continuous user feedback.",
+      "challenges": "One of the main challenges was maintaining UI/UX consistency across platforms while optimizing for offline functionality and hardware compatibility. By implementing a unified design system, I enabled the team to work more efficiently and maintain visual integrity. Another challenge was navigating the funding landscape—through diligent research, application writing, and pitch delivery, I led efforts that resulted in over CA$100,000 in non-dilutive funding, helping to sustain and scale our development.",
+      "results": "We have five confirmed pilot farms and have tested early MVP features with promising feedback. Our system offers tangible benefits including reduced administrative workload, improved vaccination and weight tracking accuracy, and enhanced decision-making via AI insights. As a direct result of our strategy, we’ve been recognized in several startup competitions and accepted into top accelerator programs. With market launch slated for mid-2025, Munitora is positioned to be a category-defining solution in livestock tech."
     }
   }
 ]
