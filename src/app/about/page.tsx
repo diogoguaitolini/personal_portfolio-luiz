@@ -92,7 +92,7 @@ export default function AboutPage() {
 
               <p className="text-xl text-justify">
                 My experience spans embedded systems and electronics, UI/UX design, venture building, prototyping, and
-                product development across diverse industries. I've led initiatives in market research, financial
+                product development across diverse industries. I&apos;ve led initiatives in market research, financial
                 modeling, client engagement, and project management, applying methodologies like Agile, Lean
                 Manufacturing, and Value Stream Mapping to drive efficiency and innovation.
               </p>

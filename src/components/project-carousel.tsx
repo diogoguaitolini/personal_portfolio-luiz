@@ -5,6 +5,7 @@ import Link from "next/link"
 import { motion } from "framer-motion"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import type { Project } from "@/lib/projects"
+import Image from "next/image"
 
 interface ProjectCarouselProps {
   projects: Project[]
@@ -165,10 +166,11 @@ export function ProjectCarousel({ projects }: ProjectCarouselProps) {
                       <div className="bg-white w-full h-[60%] relative rounded-[12px] overflow-hidden">
                         {/* Add image here if available */}
                         {projects[index].image && (
-                          <img 
+                          <Image 
                             src={projects[index].image}
                             alt={projects[index].title}
-                            className="w-full h-full object-cover"
+                            fill
+                            className="object-cover"
                           />
                         )}
                       </div>
