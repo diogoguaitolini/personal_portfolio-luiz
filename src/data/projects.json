@@ -1,0 +1,93 @@
+[
+  {
+    "id": "wall-mounted-vase",
+    "title": "Wall Mounted Vase",
+    "subtitle": "A Minimalistic, Detachable Solution for Elegant Plant Display and Care",
+    "description": "A minimalistic and functional 3D-printable wall-mounted vase, designed for easy watering, maintenance, and aesthetic appeal in compact living spaces.",
+    "category": "Engineering & Prototyping",
+    "featured": true,
+    "image": "/wall-mounted-vase.png",
+    "technologies": ["Prototyping", "Fusion 360", "Industrial Design"],
+    "content": {
+      "overview": "The plant vase project was created with the goal of providing a minimalistic, elegant, and functional solution for displaying plants on the wall. The design focuses on user experience, offering an easily detachable system that allows users to water their plants without mess. It also includes a convenient screw-on mechanism at the base for easy cleaning and maintenance. Designed in Fusion 360, the vase is optimized for 3D printing, making it both practical and accessible for anyone looking to elevate their plant care routine.",
+      "background": "As urban living spaces become more compact, many people seek ways to incorporate plants into their homes without compromising on style or space. Traditional plant pots can be bulky and difficult to maintain, especially when placed in hard-to-reach areas. This project addresses the need for a wall-mounted plant display that combines elegance with practicality, allowing for easy plant care without creating additional mess or hassle. The challenge was to design a system that not only looks aesthetically pleasing but also prioritizes the user experience when it comes to watering and cleaning.",
+      "objectives": [
+        "To create a minimalist and elegant wall-mounted plant vase that enhances the user’s living space.",
+        "To develop a system that is easy to detach from the wall, facilitating easy watering without spilling water or wetting the surrounding area.",
+        "To design a bottom screw-on mechanism that allows for quick removal and cleaning of excess dirt and water.",
+        "To make the design 3D-printable, ensuring that it is accessible for DIY enthusiasts and those with 3D printers."
+      ],
+      "implementation": "The vase was designed using Fusion 360, focusing on sleek lines and user-centric features. The attachment system was developed to ensure that the vase could be easily mounted and removed from the wall. The locking mechanism at the base is a crucial feature, allowing the user to screw on and off the bottom, facilitating the removal of dirt and water buildup. The design is fully optimized for 3D printing, ensuring a smooth printing process with easy assembly. The materials were chosen with durability in mind, ensuring that the vase is both sturdy and lightweight.",
+      "results": "The vase design successfully meets the project’s objectives, offering a sleek and user-friendly solution for wall-mounted plant display. The project not only adds an elegant touch to any home but also encourages a more practical approach to plant care, ensuring that both the plants and the home environment remain in top condition."
+    }
+  },
+  {
+    "id": "agrisync-inventory",
+    "title": "AgriSync",
+    "subtitle": "IoT Inventory Management for Heavy Duty and Agriculture Applications",
+    "description": "An IoT-powered inventory management system for the agriculture industry, integrating smart scales with real-time data platforms to reduce waste and streamline procurement.",
+    "category": "Engineering & Prototyping",
+    "featured": true,
+    "image": "/agrisync-inventory.png",
+    "technologies": ["Embedded Systems", "IoT", "Prototyping", "Design System", "Lean", "Agile", "Kaizen", "Altium Designer", "Fusion 360"],
+    "content": {
+      "overview": "AgriSync is an IoT-driven inventory management system tailored for the agricultural sector, designed to automate tracking of critical farm supplies and streamline procurement. By integrating a smart pallet scale with a mobile and web platform, AgriSync provides real-time inventory insights, reduces waste, and enhances supply chain efficiency. The system empowers farmers with data-backed decisions while offering suppliers a direct channel to their market.",
+      "background": "Traditional inventory tracking methods in agriculture—such as pen-and-paper logging or basic spreadsheets—are inefficient, error-prone, and lack real-time visibility. This leads to frequent overstocking or understocking, which negatively impacts cash flow and results in significant waste, especially with perishable goods. Existing software solutions are often too complex or require high manual input, discouraging adoption by farmers and their teams.",
+      "objectives": [
+        "To develop a user-friendly web and mobile platform for real-time inventory monitoring.",
+        "To design and implement a rugged IoT pallet scale suitable for farm environments.",
+        "To reduce inventory waste and improve forecasting with data insights and alerts.",
+        "To enhance procurement through automated shopping lists and supplier connectivity.",
+        "To create a scalable business model offering value to both farmers and suppliers."
+      ],
+      "implementation": "The AgriSync system comprises three key components:\n\n- **IoT Smart Scale**: A robust, pallet-sized scale using shear beam load cells and Nordic chipsets for wireless data transmission.\n- **Mobile and Web Platforms**: Developed using Flutter and Next.js, these platforms offer an intuitive interface for farmers with limited tech experience.\n- **Backend Infrastructure**: Built on Supabase, it supports secure data handling, GraphQL-based APIs, and real-time analytics. Azure DevOps is used for CI/CD and project tracking.",
+      "challenges": "Connectivity in rural areas posed challenges, mitigated by enabling offline Bluetooth syncing. Ensuring simplicity in the UI helped with user adoption among non-tech-savvy users. Maintaining precision and durability under farm conditions required meticulous hardware engineering.",
+      "results": "AgriSync has demonstrated potential to reduce waste, increase procurement efficiency, and improve farm profitability. The project earned 3rd place in the Capstone Fair’s Entrepreneurial category and validated its value proposition through positive early feedback."
+    }
+  },
+  {
+    "id": "findr-app",
+    "title": "Findr",
+    "subtitle": "Never Lose Your Friends at Large Events",
+    "description": "A mobile app that helps users find and stay connected with friends during crowded events, with real-time tracking and communication features.",
+    "category": "Digital Products & UI/UX Design",
+    "featured": true,
+    "image": "/findr-app.png",
+    "technologies": ["UI/UX Design", "Design System", "Figma", "Prototyping"],
+    "content": {
+      "overview": "Findr is a mobile application designed to simplify the process of locating friends in large outdoor events. With the ability to create events, share locations, and communicate efficiently, Findr ensures everyone stays in touch no matter how busy or large the event is. The app is being developed in Flutter, with a target release for Calgary Stampede 2025.",
+      "background": "At events like the Calgary Stampede, coordinating with friends across a vast venue can be frustrating. Inspired by personal experience, Findr was conceptualized to solve this problem by allowing real-time friend tracking and intuitive group coordination tools, reducing confusion and enhancing event experiences.",
+      "objectives": [
+        "To create an easy-to-use app that helps users find their friends in large, crowded events.",
+        "To implement location sharing in real-time with event-based functionality.",
+        "To design a system for sharing events with friends, enabling seamless tracking and communication.",
+        "To include unique features like 'poking' and 'incognito' mode for attention and privacy.",
+        "To apply a consistent design system using Figma for a polished, user-friendly interface."
+      ],
+      "implementation": "Following design thinking, the app was built in Figma with reusable UI components and a modern visual style. Key features include event creation, friend invites, live map tracking, and notification-driven actions like 'pokes'. The app is being developed in Flutter to ensure cross-platform deployment with consistent performance.",
+      "results": "Findr has received enthusiastic feedback from potential users and is on track for its debut at Calgary Stampede 2025. The feature set and thoughtful design have positioned it as a helpful and fun tool for group event coordination."
+    }
+  },
+  {
+    "id": "solarcar-driver-board",
+    "title": "Driver Controls Board & B3 Board",
+    "subtitle": "UofC Solar Car Team Low Voltage PCB Stack",
+    "description": "Two core PCBs—Driver Controls and B3 Board—designed for the University of Calgary Solar Car Team’s low voltage system, enabling efficient vehicle communication and control.",
+    "category": "Engineering & Prototyping",
+    "featured": true,
+    "image": "/solarcar-driver-board.png",
+    "technologies": ["Embedded Systems", "Prototyping", "Altium Designer"],
+    "content": {
+      "overview": "The Driver Controls Board and B3 Board were integral components of the low voltage system for the University of Calgary Solar Car Team's new vehicle, Helios. These boards enabled efficient communication and control between all major components of the vehicle, ensuring smooth operation of the car's driving functions.",
+      "background": "As the team developed Helios, it became evident that simplifying the car’s electrical architecture would improve reliability and development speed. The B3 Stack was created as a modular system where the B3 Board served as a communication and power hub for all subsystems.",
+      "objectives": [
+        "To design the Driver Controls Board to capture essential driver inputs such as accelerator, brake, and mode switches.",
+        "To create the B3 Board as the central controller managing SPI, USB, and CAN communications.",
+        "To ensure signal integrity and power distribution across all connected boards.",
+        "To develop a scalable system architecture supporting modularity and firmware unification."
+      ],
+      "implementation": "Using Altium Designer, the boards were developed through iterative prototyping. The Driver Controls Board focused on signal capture and minimal latency. The B3 Board integrated multiple protocols for system-wide control and power management. The stack layout and interconnection helped reduce complexity and physical wiring across the vehicle.",
+      "results": "The boards played a vital role in Helios’s low voltage system. They streamlined communication, simplified firmware development, and set a foundation for future system expansions. These contributions helped prepare the vehicle for upcoming solar racing competitions."
+    }
+  }
+]
