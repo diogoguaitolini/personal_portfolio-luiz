@@ -1,16 +1,16 @@
 "use client"
 
 import type React from "react"
-import { useRef, useState } from "react"
+import { useRef } from "react"
 import { motion } from "framer-motion"
 import { ChevronLeft, ChevronRight } from "lucide-react"
-import { getProjectsByCategory } from "@/lib/projects"
+import { getProjectsByCategory, Project } from "@/lib/projects"
 import { ProjectCard } from "@/components/project-card"
 
 export default function WorkPage() {
   // Get projects by category
-  const engineeringProjects = getProjectsByCategory("Engineering & Prototyping")
-  const digitalProjects = getProjectsByCategory("Digital Products & UI/UX Design")
+  const engineeringProjects = getProjectsByCategory("engineering")
+  const digitalProjects = getProjectsByCategory("digital")
 
   // Refs for scrolling containers
   const engineeringRowRef = useRef<HTMLDivElement>(null)
@@ -35,7 +35,7 @@ export default function WorkPage() {
     scrollRef,
   }: {
     title: string
-    projects: any[]
+    projects: Project[]
     scrollRef: React.RefObject<HTMLDivElement>
   }) => {
     return (

@@ -1,6 +1,5 @@
 "use client"
 
-import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
@@ -18,16 +17,12 @@ export function ProjectCard({
   image,
   href,
 }: ProjectCardProps) {
-  const [isHovered, setIsHovered] = useState(false)
-
   return (
     <Link href={href}>
       <motion.div
         className="relative w-full h-[232px] rounded-[20px] overflow-hidden group"
         whileHover={{ scale: 1.03 }}
         transition={{ duration: 0.3 }}
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
         style={{
           background: "linear-gradient(180deg, #FE9903 0%, #802396 53%, #0444A8 100%)",
         }}

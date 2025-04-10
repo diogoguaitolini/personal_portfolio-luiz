@@ -87,7 +87,7 @@ export default function ContactPage() {
             Contact Me
           </motion.h1>
           <p className="text-2xl md:text-3xl text-white handwritten font-bold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            Let's Talk
+            Let&apos;s Talk
           </p>
         </div>
 

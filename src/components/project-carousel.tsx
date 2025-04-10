@@ -12,18 +12,15 @@ interface ProjectCarouselProps {
 
 export function ProjectCarousel({ projects }: ProjectCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [direction, setDirection] = useState(0)
   const timeoutRef = useRef<NodeJS.Timeout | null>(null)
   const [isDragging, setIsDragging] = useState(false)
   const [startX, setStartX] = useState(0)
-  const [scrollLeft, setScrollLeft] = useState(0)
   const carouselRef = useRef<HTMLDivElement>(null)
 
   // Auto-advance carousel
   useEffect(() => {
     const startTimer = () => {
       timeoutRef.current = setTimeout(() => {
-        setDirection(1)
         setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length)
       }, 5000) // Change slide every 5 seconds
     }
@@ -41,7 +38,6 @@ export function ProjectCarousel({ projects }: ProjectCarouselProps) {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current)
     }
-    setDirection(-1)
     setCurrentIndex((prevIndex) => (prevIndex - 1 + projects.length) % projects.length)
   }
 
@@ -49,7 +45,6 @@ export function ProjectCarousel({ projects }: ProjectCarouselProps) {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current)
     }
-    setDirection(1)
     setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length)
   }
 
@@ -76,31 +71,18 @@ export function ProjectCarousel({ projects }: ProjectCarouselProps) {
   }
 
   const handleMouseMove = (e: React.MouseEvent) => {
-    if (!isDragging) return
-    const x = e.clientX
-    const dragDistance = x - startX
-    
-    // Only set global dragging when we've moved a significant distance
-    if (Math.abs(dragDistance) > 10) {
-      window.isDragging = true;
-    }
-    
-    if (Math.abs(dragDistance) > 50) {
-      if (dragDistance > 0) {
-        // Dragging right - go to previous
-        handlePrevious()
-      } else {
-        // Dragging left - go to next
-        handleNext()
-      }
-      setIsDragging(false)
-      window.isDragging = false
-    }
+    if (!isDragging || !carouselRef.current) return
+    e.preventDefault()
+    const x = e.pageX - carouselRef.current.offsetLeft
+    const walk = (x - startX) * 2
+    carouselRef.current.scrollLeft = carouselRef.current.scrollLeft - walk
   }
 
   const handleMouseUp = () => {
     setIsDragging(false)
-    window.isDragging = false
+    if (carouselRef.current) {
+      carouselRef.current.style.cursor = "grab"
+    }
   }
 
   return (
@@ -227,7 +209,6 @@ export function ProjectCarousel({ projects }: ProjectCarouselProps) {
           <button
             key={index}
             onClick={() => {
-              setDirection(index > currentIndex ? 1 : -1)
               setCurrentIndex(index)
               if (timeoutRef.current) {
                 clearTimeout(timeoutRef.current)

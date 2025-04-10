@@ -84,7 +84,7 @@ export default function AboutPage() {
               className="space-y-6 text-gray-300"
             >
               <p className="text-xl text-justify">
-                <span className="handwritten text-3xl text-white">I'm a product-focused engineer and designer</span>{" "}
+                <span className="handwritten text-3xl text-white">I&apos;m a product-focused engineer and designer</span>{" "}
                 passionate about building innovative, user-centered solutions that create real market impact. With a
                 background in Electrical Engineering and Mechatronics, I bridge technical depth with strategic design
                 thinking—crafting both hardware and digital products from concept to launch.
@@ -98,7 +98,7 @@ export default function AboutPage() {
               </p>
 
               <p className="text-xl text-justify">
-                Whether I'm prototyping IoT devices or designing customer onboarding flows, I approach every challenge
+                Whether I&apos;m prototyping IoT devices or designing customer onboarding flows, I approach every challenge
                 with a problem-solving mindset and a systems-level perspective. As a naturally extroverted communicator,
                 I thrive in collaborative environments and am driven by a commitment to create scalable, user-friendly
                 products backed by data and strategic go-to- market insight.

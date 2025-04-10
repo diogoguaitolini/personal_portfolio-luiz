@@ -363,7 +363,7 @@ export default function Home() {
               My Work
             </h2>
             <p className="text-2xl md:text-3xl text-white font-bold handwritten absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              What I've Been Up To
+              What I&apos;ve Been Up To
             </p>
           </div>
 
