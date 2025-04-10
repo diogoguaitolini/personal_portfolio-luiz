@@ -5,7 +5,7 @@ export type Project = {
   title: string
   subtitle: string
   description: string
-  category: "engineering" | "digital"
+  category: string
   featured: boolean
   image: string
   technologies: string[]
@@ -14,26 +14,26 @@ export type Project = {
     background: string
     objectives: string[]
     implementation: string
-    challenges: string
+    challenges?: string
     results: string
   }
 }
 
 export function getAllProjects(): Project[] {
-  return projectsData
+  return projectsData as Project[]
 }
 
 export function getFeaturedProjects(): Project[] {
-  return projectsData.filter((project) => project.featured)
+  return (projectsData as Project[]).filter((project) => project.featured)
 }
 
-export function getProjectsByCategory(category: "engineering" | "digital" | "all"): Project[] {
+export function getProjectsByCategory(category: string): Project[] {
   if (category === "all") {
-    return projectsData
+    return projectsData as Project[]
   }
-  return projectsData.filter((project) => project.category === category)
+  return (projectsData as Project[]).filter((project) => project.category.toLowerCase().includes(category.toLowerCase()))
 }
 
 export function getProjectById(id: string): Project | undefined {
-  return projectsData.find((project) => project.id === id)
+  return (projectsData as Project[]).find((project) => project.id === id)
 }
