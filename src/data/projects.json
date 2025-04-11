@@ -100,7 +100,7 @@
     "description": "Designing UI/UX For Non-technical Users in Agricultural Environment",
     "category": "Digital Products & UI/UX Design",
     "featured": true,
-    "image": "/agrisync-inventory.png",
+    "image": "/agrisync-ui-ux.png",
     "technologies": ["UI/UX Design", "Figma", "Prototyping"],
     "content": {
       "overview": "AgriSync is an IoT-driven inventory management system tailored for the agricultural sector, designed to automate tracking of critical farm supplies and streamline procurement. By integrating a smart pallet scale with a mobile and web platform, AgriSync provides real-time inventory insights, reduces waste, and enhances supply chain efficiency. The system empowers farmers with data-backed decisions while offering suppliers a direct channel to their market. This project was executed by a group of 5 engineers as our Capstone Project and earned us a 3rd place medal in the Entrepreneurial category at the Capstone Fair. In this project, I played a leading role in UI/UX design across both the mobile and web platforms, ensuring the interface was intuitive and accessible for our target users: farmers with varying levels of technical literacy.",
