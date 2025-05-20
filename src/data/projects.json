@@ -147,7 +147,7 @@
     "description": "AI-powered WhatsApp assistant for personal finance tracking",
     "category": "Digital Products & UI/UX Design",
     "featured": true,
-    "image": "/Theo-financial.png",
+    "image": "/Theo-financial1.png",
     "technologies": ["UI/UX Design", "Figma", "Prototyping", "Design System", "Agile"],
     "content": {
       "overview": "Theo is a personal financial assistant designed to help users manage their finances directly through WhatsApp. Users can submit incomes, expenses, and set financial goals simply by sending a message. An AI agent handles the organization and tracking of financial data, presenting it in a gamified, user-friendly dashboard. Theo was created to address personal struggles with financial tracking and has evolved into a SaaS product soon to be launched to the public.",
