@@ -139,5 +139,30 @@
       "challenges": "One of the main challenges was maintaining UI/UX consistency across platforms while optimizing for offline functionality and hardware compatibility. By implementing a unified design system, I enabled the team to work more efficiently and maintain visual integrity. Another challenge was navigating the funding landscape—through diligent research, application writing, and pitch delivery, I led efforts that resulted in over CA$100,000 in non-dilutive funding, helping to sustain and scale our development.",
       "results": "We have five confirmed pilot farms and have tested early MVP features with promising feedback. Our system offers tangible benefits including reduced administrative workload, improved vaccination and weight tracking accuracy, and enhanced decision-making via AI insights. As a direct result of our strategy, we’ve been recognized in several startup competitions and accepted into top accelerator programs. With market launch slated for mid-2025, Munitora is positioned to be a category-defining solution in livestock tech."
     }
+  },
+  {
+    "id": "theo",
+    "title": "Theo",
+    "subtitle": "Personal Financial Assistant",
+    "description": "AI-powered WhatsApp assistant for personal finance tracking",
+    "category": "Digital Products & UI/UX Design",
+    "featured": true,
+    "image": "/Theo-financial.png",
+    "technologies": ["UI/UX Design", "Figma", "Prototyping", "Design System", "Agile"],
+    "content": {
+      "overview": "Theo is a personal financial assistant designed to help users manage their finances directly through WhatsApp. Users can submit incomes, expenses, and set financial goals simply by sending a message. An AI agent handles the organization and tracking of financial data, presenting it in a gamified, user-friendly dashboard. Theo was created to address personal struggles with financial tracking and has evolved into a SaaS product soon to be launched to the public.",
+      "background": "The idea for Theo emerged from a personal need: managing expenses consistently without forgetting to log them. Initially, the workflow relied on Excel sheets connected to PowerBI dashboards—but the process was manual, repetitive, and easy to neglect. The absence of an intuitive and low-friction input method led to missed entries and inaccurate financial planning. Theo solves this by enabling expense and goal logging via WhatsApp, a platform users interact with daily. It also makes the experience enjoyable through gamified goals and achievements.",
+      "objectives": [
+        "To create a seamless way for users to track financial transactions using WhatsApp messages.",
+        "To use AI to parse, categorize, and organize financial data autonomously.",
+        "To build a dashboard that presents income, expenses, goals, and achievements in an intuitive format.",
+        "To integrate gamification elements to encourage financial engagement and habit-building.",
+        "To design a complete brand identity and user experience that is modern, friendly, and approachable.",
+        "To develop a SaaS-ready solution for market release."
+      ],
+      "implementation": "Theo was developed as a collaborative effort. I led the project’s design and front-end development, including: Creating the brand book, logo, and visual identity (as seen in the Theo Brand Book). Designing all wireframes and the dashboard user interface. Implementing the front-end using modern frameworks. A friend assisted in developing the backend AI agent and WhatsApp integration, using natural language processing to interpret user messages and log transactions into a database. The final output is visualized in a web dashboard that shows cash flow, recent activity, recurring expenses, goals, and achievements.",
+      "challenges": "One major challenge was ensuring users wouldn't drop off due to friction in the input process. Traditional apps often require multiple steps to log expenses, leading to low engagement. By integrating with WhatsApp, Theo leverages a daily-used platform, drastically reducing friction. Another challenge was making the experience fun—solved through a carefully designed gamification system, including badges and milestone tracking for savings, debt payoff, and investments.",
+      "results": "Theo has proven to be a highly effective solution for simplifying personal finance management. Since its internal launch, users have consistently reported an increase in the frequency and accuracy of expense tracking. Theo successfully met its core objectives by making financial tracking frictionless, accessible, and fun—empowering users to build healthier money habits and gain control over their financial future. The project is now in its final development stage as a market-ready SaaS product."
+    }
   }
 ]
